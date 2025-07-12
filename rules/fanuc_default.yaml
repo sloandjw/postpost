@@ -1,0 +1,11 @@
+rules:
+  - match: "^T(\\d+)"
+    insert_after: "G43 H\\1"
+    comment: "Add tool length offset"
+  - match: "^M06"
+    replace_with: "M6"
+  - match: "^G28"
+    delete: true
+required:
+  - "^G54"
+  - "^G43"
