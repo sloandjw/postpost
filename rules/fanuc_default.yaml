@@ -6,6 +6,8 @@ rules:
     replace_with: "M6"
   - match: "^G28"
     delete: true
+  - match: "^O\\d+"
+    replace_with: "(Program Name)"
 required:
   - "^G54"
   - "^G43"

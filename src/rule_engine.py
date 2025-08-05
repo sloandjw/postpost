@@ -22,3 +22,5 @@ def apply_rules(lines, config):
         if not applied:
             output.append(line)
     return output
+ 
+def apply_required

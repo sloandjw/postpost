@@ -1,8 +1,9 @@
 %
-O0001
+(Program Name)
 T1 M06
+G43 H1 M06
+
 G0 G90 X0 Y0
 G43 Z100
-G28 Z0
 M30
 %
